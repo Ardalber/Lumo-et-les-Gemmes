@@ -1,0 +1,33 @@
+LUMO ET LES GEMMES - jeu de plateforme 2D original pour Godot 4
+==============================================================
+
+Tu joues Lumo, une petite créature verte avec une antenne lumineuse.
+But : traverser le niveau jusqu'au drapeau d'arrivée, en ramassant
+un maximum de gemmes bleues.
+
+- Saute sur les "Grognons" (des bonshommes ronchons barbus à lunettes,
+  en veste bleu marine) pour les écraser.
+  Pour mettre ta vraie photo à la place de la tête dessinée : recadre
+  une photo sur ton visage (carré), nomme-la "tete.png" (ou .jpg) et
+  mets-la dans ce dossier, puis rouvre le projet dans Godot.
+  Les toucher autrement fait perdre une vie.
+- Frappe les caisses en bois par-dessous pour libérer une gemme.
+- Évite les piques et les trous. Le ressort rouge fait sauter très haut.
+- Le petit drapeau rouge au milieu est un point de passage :
+  une fois touché (il devient vert), tu repars de là.
+- 3 vies.
+
+OUVRIR LE JEU
+Dans Godot 4 : "Importer" > choisir project.godot de ce dossier > F5.
+(La vue de l'éditeur est vide : le niveau est créé au lancement.)
+
+COMMANDES
+Clavier :
+- Q / D (A / D en QWERTY) ou flèches : se déplacer
+- Espace, Z (W en QWERTY) ou flèche haut : sauter
+  (relâcher tôt = petit saut, maintenir = grand saut)
+- Maj : courir
+- R : recommencer      Échap : quitter
+Manette Xbox :
+- Stick gauche ou croix : se déplacer
+- A : sauter      X ou B : courir      Start : recommencer
